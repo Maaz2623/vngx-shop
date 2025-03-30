@@ -1,0 +1,26 @@
+{
+  "name": "vanguox-shop-backend",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "drizzle-kit": "^0.30.6",
+    "tsx": "^4.19.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "@trpc/client": "^11.0.1",
+    "@trpc/server": "^11.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "superjson": "^2.2.2"
+  }
+}
