@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import "dotenv/config"; // ✅ Load .env automatically
 
 dotenv.config({
-  path: ".env",
+  path: ".env.local",
 });
 
 export default defineConfig({
